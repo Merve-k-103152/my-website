@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anasayfa {
+    text-align: center;
+    color: #fff; 
+}
+
+.anasayfa h1 {
+    font-size: 100px; 
+    margin: 0; 
+}
+
+nav {
+    background-color: rgba(60, 162, 162, 0.7); 
+    padding: 10px 0; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #fff;
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color: rgba(60, 162, 162, 1); 
+}
+
+nav {
+    background-color: rgba(60, 162, 162, 0.7);
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 20px auto; 
+    text-align: center; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.anasayfa {
+    text-align: center; 
+    margin-top: 100px; 
+}
+
+h1 {
+    font-size: 75px; 
+}
+nav ul li {
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    display: flex; 
+    align-items: center; 
+}
+
+nav ul li a i {
+    margin-right: 8px; 
+}
+
+.anasayfa {
+    text-align: center; 
+    margin-top: 100px; 
+    color: #f1f1f1; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+h1 {
+    font-size: 75px; 
+    color: rgb(56, 226, 241); 
+}
+
+p {
+    color: rgb(54, 221, 215); 
+    font-size: 20px; 
+}
+
+.hakkımda1 {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.hakkimda2 {
+    margin-left: 20px; 
+}
+
+body.anasayfafoto {
+    margin: 0;
+    height: 100vh;
+    background-image: url(çoklupapatya.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+body.iletisimfoto {
+    background-image: url(sönmüşpapatya.png );
+}
+
+body.hakkimdafoto {
+    background-image: url('abc.webp');
+}
+
+body.projefoto {
+    background-image: url(kırmızıgül.avif);
+}
+body.anketofoto {
+    background-image: url(gercekcicek.png);
+}
